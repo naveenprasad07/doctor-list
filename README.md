@@ -1,12 +1,29 @@
-# React + Vite
+# 🩺 Doctor Directory App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive, filterable doctor directory built with React. Users can search for doctors, filter by consultation mode and specialty, and sort by fees or experience. The doctor data is fetched from a mock API.
 
-Currently, two official plugins are available:
+> 🔗 **Live Demo**: [https://doctor-list-sigma.vercel.app](https://doctor-list-sigma.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🔍 Autocomplete search for doctors by name
+- 🏥 Filter by consultation mode:
+  - Video Consult
+  - In Clinic
+- 🩺 Filter by 20+ specialties (e.g., Cardiologist, Dermatologist, Psychologist)
+- 📊 Sort by:
+  - Fees (Low to High)
+  - Experience (High to Low)
+- 🔗 URL-based query parameters (sharable/bookmarkable)
+- 📱 Responsive design (TailwindCSS)
+
+---
+
+## 🧰 Tech Stack
+
+- **Frontend**: React
+- **Styling**: TailwindCSS
+- **API**: [Mock JSON](https://srijandubey.github.io/campus-api-mock/SRM-C1-25.json)
+- **Deployment**: Vercel
